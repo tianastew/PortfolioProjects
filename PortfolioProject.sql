@@ -45,7 +45,7 @@ Where continent is not null
 Group by Location, population
 order by TotalDeathCount desc
 
---Let's break things down by Continent
+--Breaking things down by Continent
 
 Select continent, MAX(total_deaths) as TotalDeathCount
 From PortfolioProject..CovidDeaths
